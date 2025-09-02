@@ -1,11 +1,9 @@
-#VITRINE - crie seus catálogos comerciais de forma prática e intuitiva!
+02/09/2025
 
+Ítalo Oliveira
 
-Desenvolvimento de um sistema dedicado à criação de catálogos que facilite o comércio de produtos e serviços online e presenciais para aprovação parcial na disciplina de Programação de Sistemas Web 2
-
-- Como executar localmente: 
-
-
-3BII: Cecília Elen, Natan Felipe, Ítalo Oliveira
-
--Usuários predefinidos:
+Feitos nessa versão: Colocado o {% block content %} para deixar a criação de templates mais fácil, criação dos forms e models de todos os apps (catalogo_produto tá junto com produto)
+Correção da estrutura baseado no diagrama de classe do professor
+crud de categoria
+crud de usuario (sujeito a alterações)
+Create de Produto e de Catálogo (a ser alterado)
