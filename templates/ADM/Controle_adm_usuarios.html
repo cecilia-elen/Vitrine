@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Vitrine - Painel do Administrador</title>
+</head>
+<body>
+    <h1>Lista de Usuários Cadastrados</h1>
+
+    <table border="1" style="width:100%; border-collapse: collapse;">
+        <thead>
+            <tr style="background-color:#f2f2f2;">
+                <th style="padding: 8px;">Nome Completo</th>
+                <th style="padding: 8px;">Email</th>
+                <th style="padding: 8px;">CPF</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for usuario in usuarios %}
+            <tr>
+                <td style="padding: 8px;">{{ usuario.get_full_name }}</td>
+                <td style="padding: 8px;">{{ usuario.email }}</td>
+                <td style="padding: 8px;">{{ usuario.cpf }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>
